@@ -73,3 +73,73 @@
     font-size: 1rem;
     flex:1;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #ffffff;
+  color: #1f2933;
+  line-height: 1.6;
+}
+
+.contenedor {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+
+
+.intro {
+  margin-bottom: 40px;
+}
+
+.intro h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.intro p {
+  font-size: 1rem;
+  color: #3e4c59;
+  max-width: 75ch;
+}
+
+
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.tarjeta {
+  background: #f4f6f8;
+  border: 1px solid #e1e5ea;
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.numero {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #7b8794;
+  margin-bottom: 14px;
+}
+
+.tarjeta h2 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.tarjeta p {
+  font-size: 0.9rem;
+  color: #52606d;
+}
+
+ 
