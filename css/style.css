@@ -33,20 +33,13 @@
     color: #00226d;
 }
 
-.grafico{
-    position: relative;
-}
-
-.grafico img {
-    width: 100%;
-    display: block;
-}
-
-.grafico::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(to right, rgba(0,0,0,0.5), transparent 60%);
+.portada img {
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  height: auto;                  /* sin alto fijo, así no se deforma */
+  object-fit: contain;
+  margin: 0 auto;
 }
 
 .matematica {
