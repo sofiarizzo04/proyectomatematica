@@ -33,16 +33,6 @@
     color: #000000;
 }
 
-/* Fondo cuadriculado */
-.hero {
-  border-bottom: 1px solid #e3e6ec;
-  background-color: #fbfbf9;
-  background-image:
-    linear-gradient(#e9edf4 1px, transparent 1px),
-    linear-gradient(90deg, #e9edf4 1px, transparent 1px);
-  background-size: 40px 40px;
-}
-
 /* Texto a la izquierda, imagen a la derecha */
 .hero-contenido {
   max-width: 1200px;
