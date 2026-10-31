@@ -471,6 +471,12 @@ body {
 }
 .pie strong { color: #fff; }
 
+.banner {
+  width: 100%;
+  background: var(--ma);
+  color: var(--crema);
+}
+
 @media (max-width: 1000px) {
   .tarjetas { grid-template-columns: 1fr 1fr; }
   .panel { grid-template-columns: 1fr; }
